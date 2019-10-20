@@ -12,4 +12,4 @@ class EmailParser
   
   def parse
     csv_emails.split.collect do |addresses|
-      address.s
+      address.split()
