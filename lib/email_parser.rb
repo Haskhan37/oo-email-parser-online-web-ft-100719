@@ -11,4 +11,4 @@ class EmailParser
   end
   
   def parse
-    csv_emails.split.do.
+    csv_emails.split.collect do 
